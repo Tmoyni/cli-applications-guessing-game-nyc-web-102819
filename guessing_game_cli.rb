@@ -36,7 +36,7 @@ def run_guessing_game
       puts "Goodbye!"
       
     else user_input != random_number
-      puts "Sorry! The computer guessed (random_number)."
+      puts "Sorry! The computer guessed #{random_number}."
     end 
   end 
   
