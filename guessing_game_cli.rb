@@ -23,7 +23,7 @@ def exit_command
 end
 
 def run_guessing_game
-  valid_number = [1..6]
+  random_number = [1..6]
   exit_game = "exit"
   
   guess_number
