@@ -32,8 +32,10 @@ def run_guessing_game(get_user_input, random_number)
   if user_input == exit_game
     exit_command
   end
-  
-  =begin  
+  exit_command
+end
+
+ =begin  
     until valid_number.include?(user_input)
       invalid_command
       guess_number
@@ -44,8 +46,6 @@ def run_guessing_game(get_user_input, random_number)
       end
     correct_guess
   =end
-  exit_command
-end
 
 def invalid_command
   puts guess_number
