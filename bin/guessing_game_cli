@@ -2,7 +2,9 @@
 
 require_relative "../guessing_game_cli"
 
-Generate_rand_num
+def rand_num
+  rand
+end
 
 
 run_guessing_game
