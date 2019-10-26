@@ -1,10 +1,5 @@
-def random_number
-  rand(1..6)
-end
-
-
 def run_guessing_game
-  random = random_number
+  random = rand(1..6)
   exit_game = "exit"
   
   puts "Guess a number between 1 and 6"
