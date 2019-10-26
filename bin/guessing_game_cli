@@ -14,7 +14,7 @@ def get_user_input
   gets.chomp
 end
 
-#compare input to random number
+# compare input to random number
 # You guessed the correct number!
 # Sorry! The computer guessed <number>.
 # Goodbye!
