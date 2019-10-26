@@ -22,7 +22,7 @@ def exit_command
   puts "Goodbye!"
 end
 
-def run_guessing_game(get_user_input, random_number)
+def run_guessing_game
   valid_number = [1..6]
   exit_game = "exit"
   
