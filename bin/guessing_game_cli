@@ -20,7 +20,12 @@ def compare_input(get_user_input, random_number)
   guess_number
   user_input = get_user_input
   
-  
+  until valid_command.include?(user_input)
+    invalid_command
+    prompt_user
+    user_input = get_user_input
+  end 
+end
   
 # You guessed the correct number!
 # Sorry! The computer guessed <number>.
