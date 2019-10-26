@@ -27,7 +27,8 @@ def run_guessing_game
   exit_game = "exit"
   user_input = gets.chomp
     
-    if 
+    
+    if user_input == random_number
   
   guess_number
   user_input = get_user_input
