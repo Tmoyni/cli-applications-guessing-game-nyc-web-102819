@@ -36,33 +36,7 @@ def run_guessing_game
       puts "Goodbye!"
       
     else 
-  
-  guess_number
-  user_input = get_user_input
-  
-  if user_input == exit_game
-    exit_command
-  end
-  exit_command
-end
-
- =begin  
-    until valid_number.include?(user_input)
-      invalid_command
-      guess_number
-      user_input = get_user_input
+      puts "Sorry! The computer guessed (random_number)."
     end 
-        if user_input == random_number
-        correct_guess
-      end
-    correct_guess
-  =end
-
-def invalid_command
-  puts guess_number
-end
-
-
+  end 
   
-# You guessed the correct number!
-# Sorry! The computer guessed <number>.
