@@ -14,6 +14,14 @@ def get_user_input
   gets.chomp
 end
 
+def correct_guess
+  puts "You guessed the correct number!"
+end
+
+def incorrect_guess(random_number)
+  puts "Sorry! The computer guessed #(random_number)."
+end
+
 def compare_input(get_user_input, random_number)
   valid_number = [1..6]
   
@@ -22,22 +30,22 @@ def compare_input(get_user_input, random_number)
   
   until valid_command.include?(user_input)
     invalid_command
-    prompt_user
+    guess_number
     user_input = get_user_input
   end 
-      if user_input == "h"
-      card_total += deal_card
+      if user_input == random_number
+      correct_guess
     end
-  card_total
+  correct_guess
 end
 
-def invalid_command
-  puts "Please enter a valid command"
+def exit_command
+  puts "Goodbye!"
 end
   
 # You guessed the correct number!
 # Sorry! The computer guessed <number>.
-# Goodbye!
+# 
 
 run_guessing_game
   
