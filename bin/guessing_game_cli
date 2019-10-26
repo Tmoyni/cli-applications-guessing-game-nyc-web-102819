@@ -6,7 +6,6 @@ def rand_num
   rand 1..6
 end
 
-
 run_guessing_game
   
 end
