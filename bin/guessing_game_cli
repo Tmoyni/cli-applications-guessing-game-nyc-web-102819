@@ -16,6 +16,8 @@ end
 
 def compare_input(get_user_input, random_number)
   valid_number = [1..6]
+  
+  guess_number
 # You guessed the correct number!
 # Sorry! The computer guessed <number>.
 # Goodbye!
