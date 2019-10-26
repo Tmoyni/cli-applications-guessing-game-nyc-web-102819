@@ -6,6 +6,12 @@ def random_number
   rand 1..6
 end
 
+def guess_number
+  #promp user to guess their own number 1-6
+end 
+
+
+
 run_guessing_game
   
 end
