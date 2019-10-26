@@ -48,6 +48,7 @@ def run_guessing_game(get_user_input, random_number)
       end
     correct_guess
   =end
+  exit_command
 end
 
 def invalid_command
