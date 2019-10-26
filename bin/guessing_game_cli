@@ -33,17 +33,17 @@ def run_guessing_game(get_user_input, random_number)
     exit_command
   end
   
-=begin  
-  until valid_number.include?(user_input)
-    invalid_command
-    guess_number
-    user_input = get_user_input
-  end 
-      if user_input == random_number
-      correct_guess
-    end
-  correct_guess
-=end
+  =begin  
+    until valid_number.include?(user_input)
+      invalid_command
+      guess_number
+      user_input = get_user_input
+    end 
+        if user_input == random_number
+        correct_guess
+      end
+    correct_guess
+  =end
 end
 
 def invalid_command
