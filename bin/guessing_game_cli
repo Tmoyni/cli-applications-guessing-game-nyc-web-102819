@@ -8,6 +8,7 @@ end
 
 def guess_number
   #promp user to guess their own number 1-6
+  puts 
 end 
 
 
