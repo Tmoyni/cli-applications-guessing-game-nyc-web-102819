@@ -7,8 +7,7 @@ def random_number
 end
 
 def guess_number
-  #promp user to guess their own number 1-6
-  puts 
+  puts "Guess a number between 1 and 6"
 end 
 
 
