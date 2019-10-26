@@ -1,3 +1,4 @@
+=begin
 def random_number
   rand 1..6
 end
@@ -21,6 +22,7 @@ end
 def exit_command
   puts "Goodbye!"
 end
+=end
 
 def run_guessing_game
   random_number = rand(1..6)
