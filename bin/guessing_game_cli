@@ -17,6 +17,7 @@ end
 #compare input to random number
 # You guessed the correct number!
 # Sorry! The computer guessed <number>.
+# Goodbye!
 
 run_guessing_game
   
