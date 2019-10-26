@@ -25,6 +25,7 @@ end
 def run_guessing_game
   random_number = [1..6]
   exit_game = "exit"
+  get_user_input = gets.chomp
   
   guess_number
   user_input = get_user_input
