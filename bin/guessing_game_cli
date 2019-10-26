@@ -24,9 +24,12 @@ end
 
 def run_guessing_game(get_user_input, random_number)
   valid_number = [1..6]
+  exit = 
   
   guess_number
   user_input = get_user_input
+  
+  if user_input ==
   
   until valid_number.include?(user_input)
     invalid_command
