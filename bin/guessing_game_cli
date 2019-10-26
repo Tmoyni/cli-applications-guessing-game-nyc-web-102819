@@ -2,6 +2,9 @@
 
 require_relative "../guessing_game_cli"
 
+Generate_rand_num
+
+
 run_guessing_game
   
 end
