@@ -22,6 +22,10 @@ def incorrect_guess(random_number)
   puts "Sorry! The computer guessed #(random_number)."
 end
 
+def exit_command
+  puts "Goodbye!"
+end
+
 def run_guessing_game(get_user_input, random_number)
   valid_number = [1..6]
   exit_game = "exit"
@@ -50,9 +54,7 @@ def invalid_command
   puts guess_number
 end
 
-def exit_command
-  puts "Goodbye!"
-end
+
   
 # You guessed the correct number!
 # Sorry! The computer guessed <number>.
